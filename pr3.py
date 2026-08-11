@@ -1,12 +1,8 @@
+numbers = [12, 45, 7, 89, 23, 56, 90, 34, 18, 67]
 
-text = input("Enter a string: ")
+total = 0
 
-frequency = {}
+for num in numbers:
+    total += num
 
-for ch in text:
-    if ch in frequency:
-        frequency[ch] += 1
-    else:
-        frequency[ch] = 1
-
-print(frequency)
+print("Sum:", total)

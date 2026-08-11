@@ -1,9 +1,12 @@
-students = {
-    "Riya": 85,
-    "Anu": 92,
-    "Rahul": 78
-}
+numbers = [12, 45, 7, 89, 23, 56, 90, 34]
 
-sorted_dict = dict(sorted(students.items(), key=lambda x: x[1]))
+largest = second = -999999
 
-print(sorted_dict)
+for num in numbers:
+    if num > largest:
+        second = largest
+        largest = num
+    elif num > second and num != largest:
+        second = num
+
+print("Second largest:", second)

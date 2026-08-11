@@ -1,10 +1,8 @@
-students = {
-    "Riya": 85,
-    "Anu": 92,
-    "Rahul": 78
-}
+numbers = [12, 45, 7, 89, 23]
 
-highest = max(students, key=students.get)
+reversed_list = []
 
-print("Top Student:", highest)
-print("Highest Mark:", students[highest])
+for i in range(len(numbers) - 1, -1, -1):
+    reversed_list.append(numbers[i])
+
+print("Reversed list:", reversed_list)

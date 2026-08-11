@@ -1,13 +1,8 @@
-students = {
-    "Riya": 85,
-    "Anu": 92,
-    "Rahul": 78
-}
+numbers = [12, 45, 7, 89, 23, 56, 90, 34, 18, 67]
 
-print("Keys:")
-for key in students.keys():
-    print(key)
+total = 0
 
-print("Values:")
-for value in students.values():
-    print(value)
+for num in numbers:
+    total += num
+
+print("Sum:", total)
