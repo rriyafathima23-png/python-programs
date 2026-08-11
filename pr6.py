@@ -1,12 +1,7 @@
-students = {
-    "Riya": 85,
-    "Anu": 92,
-    "Rahul": 78
-}
+# Create a set from a list
 
-key = input("Enter student name: ")
+numbers = [10, 20, 30, 20, 40, 10, 50]
 
-if key in students:
-    print("Key exists")
-else:
-    print("Key does not exist")
+unique_numbers = set(numbers)
+
+print("Unique elements:", unique_numbers)

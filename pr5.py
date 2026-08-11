@@ -1,6 +1,8 @@
-num = int(input("Enter a number: "))
+# Find the union of two sets
 
-if num != 0:
-    print("The number is not equal to zero.")
-else:
-    print("The number is equal to zero.")
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+
+result = set1.union(set2)
+
+print("Union:", result)

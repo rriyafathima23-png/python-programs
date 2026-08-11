@@ -1,6 +1,9 @@
-num = int(input("Enter a number: "))
+# Remove a specific element from a set safely
 
-if num >= 10 and num <= 20:
-    print("The number is between 10 and 20.")
-else:
-    print("The number is not between 10 and 20.")
+numbers = {10, 20, 30, 40}
+
+element = 20
+
+numbers.discard(element)
+
+print("Updated set:", numbers)

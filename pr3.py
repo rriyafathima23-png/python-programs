@@ -1,7 +1,8 @@
-age = int(input("Enter your age: "))
-license_id = input("Do you have a license ID? (yes/no): ")
+# Find the difference between two sets
 
-if age >= 18 and license_id == "yes":
-    print("Eligible for driving.")
-else:
-    print("Not eligible for driving.")
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+
+result = set1.difference(set2)
+
+print("Difference:", result)

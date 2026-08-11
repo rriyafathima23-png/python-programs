@@ -1,7 +1,6 @@
-marks = int(input("Enter marks: "))
-attendance = int(input("Enter attendance percentage: "))
+# Check if one set is a subset of another
 
-if marks >= 35 and attendance >= 75:
-    print("Student Passed")
-else:
-    print("Student Failed")
+set1 = {1, 2}
+set2 = {1, 2, 3, 4}
+
+print("Is set1 a subset of set2?", set1.issubset(set2))

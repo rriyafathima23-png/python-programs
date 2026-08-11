@@ -1,6 +1,8 @@
-day = input("Enter today's day: ")
+# Find the intersection of two sets
 
-if day == "Saturday" or day == "Sunday":
-    print("Today is a weekend.")
-else:
-    print("Today is a weekday.")
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+
+result = set1.intersection(set2)
+
+print("Intersection:", result)
