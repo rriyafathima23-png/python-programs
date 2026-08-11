@@ -1,8 +1,6 @@
-numbers = [12, 45, 7, 89, 23]
+day = input("Enter today's day: ")
 
-reversed_list = []
-
-for i in range(len(numbers) - 1, -1, -1):
-    reversed_list.append(numbers[i])
-
-print("Reversed list:", reversed_list)
+if day == "Saturday" or day == "Sunday":
+    print("Today is a weekend.")
+else:
+    print("Today is a weekday.")

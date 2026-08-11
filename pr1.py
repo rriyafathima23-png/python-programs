@@ -1,9 +1,6 @@
-numbers = [12, 45, 7, 89, 23, 56, 90, 34, 18, 67]
+num = int(input("Enter a number: "))
 
-largest = numbers[0]
-
-for num in numbers:
-    if num > largest:
-        largest = num
-
-print("Largest number:", largest)
+if num >= 10 and num <= 20:
+    print("The number is between 10 and 20.")
+else:
+    print("The number is not between 10 and 20.")

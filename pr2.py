@@ -1,8 +1,7 @@
-numbers = [12, 45, 7, 89, 23, 56, 90, 34, 18, 67]
+marks = int(input("Enter marks: "))
+attendance = int(input("Enter attendance percentage: "))
 
-total = 0
-
-for num in numbers:
-    total += num
-
-print("Sum:", total)
+if marks >= 35 and attendance >= 75:
+    print("Student Passed")
+else:
+    print("Student Failed")
